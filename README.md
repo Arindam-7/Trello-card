@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+One of the exercises from the book [Pure React](https://daveceddia.com/pure-react/) by Dave Ceddia.
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+
+
+
+
 
 In the project directory, you can run:
 
