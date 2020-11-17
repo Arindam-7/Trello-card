@@ -19,6 +19,16 @@ const Board = () => {
       id: 3,
       name: 'Watch Peaky Blinders',
       type: 'To Do'
+    },
+    todo4: {
+      id: 4,
+      name: 'Declutter Telegram',
+      type: 'To Do'
+    },
+    todo5: {
+      id: 5,
+      name: 'Contribute to Open Source',
+      type: 'To Do'
     }
   }
 

@@ -16,6 +16,17 @@ const Column = (props) => {
             <div class="item">
                 <h2 className="item-title">{props.todo.todo3.name}</h2>
             </div>
+            <div class="item">
+                <h2 className="item-title">{props.todo.todo4.name}</h2>
+            </div>
+            <div class="item">
+                <h2 className="item-title">{props.todo.todo5.name}</h2>
+            </div>
+            <input 
+                className="addCard"
+                placeholder="Add a card..."
+            >
+            </input>
         </div>
 
         <div className="column">
@@ -26,6 +37,11 @@ const Column = (props) => {
             <div class="item">
                 <h2 className="item-title">{props.doing.doing2.name}</h2>
             </div>
+            <input 
+                className="addCard"
+                placeholder="Add a card..."
+            >
+            </input>
         </div>
 
         <div className="column">
@@ -39,6 +55,11 @@ const Column = (props) => {
             <div class="item">
                 <h2 className="item-title">{props.done.done3.name}</h2>
             </div>
+            <input 
+                className="addCard"
+                placeholder="Add a card..."
+            >
+            </input>
         </div>
     </React.Fragment>
     );
