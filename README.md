@@ -1,11 +1,13 @@
 One of the exercises from the book [Pure React](https://daveceddia.com/pure-react/) by Dave Ceddia.
 
 
+### [Click here to see Live Demo of the Project](https://arindam-7.github.io/Trello-card/)
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-
 
 
 
