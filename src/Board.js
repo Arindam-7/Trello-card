@@ -49,44 +49,9 @@ const Board = () => {
 
   return (
     <div className="Board">
-      <div className="column">
-        <h1 className="title"> To Do </h1>
-        <div class="item">
-          <h2 className="item-title">Do Something</h2>
-        </div>
-        <div class="item">
-          <h2 className="item-title">Do Something(2)</h2>
-        </div>
-        <div class="item">
-          <h2 className="item-title">Do Something(3)</h2>
-        </div>
-      </div>
-
-      <div className="column">
-        <h1 className="title"> Doing </h1>
-        <div class="item">
-          <h2 className="item-title">Do Something</h2>
-        </div>
-        <div class="item">
-          <h2 className="item-title">Do Something(2)</h2>
-        </div>
-        <div class="item">
-          <h2 className="item-title">Do Something(3)</h2>
-        </div>
-      </div>
-
-      <div className="column">
-        <h1 className="title"> Done </h1>
-        <div class="item">
-          <h2 className="item-title">Do Something</h2>
-        </div>
-        <div class="item">
-          <h2 className="item-title">Do Something(2)</h2>
-        </div>
-        <div class="item">
-          <h2 className="item-title">Do Something(3)</h2>
-        </div>
-      </div>
+      <Column />
+      <Column />
+      <Column />
     </div>
   );
 }
